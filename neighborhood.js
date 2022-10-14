@@ -1,12 +1,15 @@
 
-let randomRestaurant = document.querySelector('randomRestaurant')
+let rdmRestaurant = document.querySelector('#randomRestaurant')
+let rdmArr = ['SlapFish', 'StrapTank', 'R&R BBQ']
+
 
 function randomRestaurant(event) {
-    event.preventDefault()
+    // event.preventDefault()
+    alert(rdmArr)
 }
 
 
 
 
 
-randomRestaurant.addEventListener('click', randomRestaurant)
+rdmRestaurant.addEventListener('click', randomRestaurant)
